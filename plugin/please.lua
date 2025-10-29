@@ -34,6 +34,7 @@ vim.filetype.add({
   pattern = {
     [".*/BUILD$"] = "please",
     [".*/BUILD%.plz$"] = "please",
+    [".*%.build_defs$"]  = "please",
   }
 })
 
