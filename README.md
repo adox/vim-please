@@ -13,7 +13,7 @@ A lightweight **Neovim plugin** (written in Lua) that provides:
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
-{ 'adox/vim-please-lua' }
+{ 'adox/vim-please' }
 ```
 ---
 
