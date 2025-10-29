@@ -106,8 +106,6 @@ vim.api.nvim_create_autocmd("FileType", {
 
       -- Comments are Python-style already; ensure commentstring
       vim.bo[bufnr].commentstring = "# %s"
-      -- Folding by indent is sane for BUILD files
-      vim.wo.foldmethod = "indent"
     end)
   end,
 })
