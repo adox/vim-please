@@ -40,7 +40,7 @@ vim.filetype.add({
 
 -- Also detect by bare filename for users opening from cwd
 vim.api.nvim_create_autocmd({"BufRead","BufNewFile"}, {
-  pattern = { "BUILD", "BUILD.plz" },
+  pattern = { "BUILD", "BUILD.plz", "*.build_defs" },
   callback = function() vim.bo.filetype = "please" end,
 })
 
